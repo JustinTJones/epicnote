@@ -1,0 +1,9 @@
+/* this is the css file containing UI elements */
+
+.mainEditorDiv {
+  width: 25rem;
+  height: 15rem;
+  border: solid 1px #555;
+  border-radius: 1em;
+  padding: 1em;
+}
