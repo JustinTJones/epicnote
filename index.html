@@ -5,10 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="text.css">
 	<link rel="stylesheet" type="text/css" href="ui.css">
 	<script src="text.js"></script>
+	<script src="jquery-2.1.4.js"></script>
 </head>
 <body>
 	<h2 contenteditable="true">Take some notes</h2>
-	<div>The buttons will go here</div>
+	<div class="btnDiv">
+		<div class="styleBtn" id="btnBold"><span style="font-weight:bold;">B</span></div>
+		<div class="styleBtn" id="btnItalic"><span style="font-style:italic;">I</span></div>
+		<div class="styleBtn" id="btnUnderline"><span style="text-decoration:underline">U</span></div>
+		<div class="clrFlt"></div>
+	</div>
 	<div contenteditable="true" class="mainEditorDiv">This content can be edited!!!</div>
 
 </body>

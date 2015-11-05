@@ -1,1 +1,5 @@
 /* this is the css file related to text manipulation */
+
+.bold { font-weight: 800; }
+
+.italic { font-style: italic; }

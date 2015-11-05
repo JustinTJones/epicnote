@@ -1,9 +1,25 @@
 /* this is the css file containing UI elements */
 
+.clrFlt { clear: both; }
+
 .mainEditorDiv {
   width: 25rem;
   height: 15rem;
   border: solid 1px #555;
   border-radius: 1em;
   padding: 1em;
+}
+
+.btnDiv {
+
+}
+
+.styleBtn {
+  width: 0.8rem;
+  border: solid 1px #555;
+  float:left;
+}
+
+.activeBtn {
+
 }
