@@ -3,3 +3,8 @@
 .bold { font-weight: 800; }
 
 .italic { font-style: italic; }
+
+.underline { text-decoration: underline; }
+
+.strikethrough { text-decoration: strikethrough; }
+
