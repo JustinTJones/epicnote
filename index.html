@@ -13,16 +13,18 @@
 	<strong>strong</strong><br>
 	<mark>mark</mark><br>
 	<del>del</del><br>
-	<div class="btnDiv">
-		<div class="styleBtn" id="btnBold" value="strong"><span style="font-weight:bold;">B</span></div>
-		<div class="styleBtn" id="btnItalic" value="em"><span style="font-style:italic;">I</span></div>
-		<div class="styleBtn" id="btnUnderline" value="underline"><span style="text-decoration:underline;">U</span></div>
-		<div class="styleBtn" id="btnStrikethrough" value="strike"><span style="text-decoration:line-through;">S</span></div>
-		<div class="styleBtn" id="btnOl" value="ol">OL</div>
-		<div class="styleBtn" id="btnUl" value="ul">UL</div>
-		<div class="clrFlt"></div>
-	</div>
-	<div contenteditable="true" class="mainEditorDiv">This content can be edited!!!</div>
+	<div id="wrapperDiv">
+		<div class="btnDiv">
+			<div class="styleBtn" id="btnBold" mod="<strong>"><span style="font-weight:bold;">B</span></div>
+			<div class="styleBtn" id="btnItalic" mod="<em>"><span style="font-style:italic;">I</span></div>
+			<div class="styleBtn" id="btnUnderline" mod="underline"><span style="text-decoration:underline;">U</span></div>
+			<div class="styleBtn" id="btnStrikethrough" mod="<del>"><span style="text-decoration:line-through;">S</span></div>
+			<div class="styleBtn" id="btnOl" mod="<ol>">OL</div>
+			<div class="styleBtn" id="btnUl" mod="<ul>">UL</div>
+			<div class="clrFlt"></div>
+		</div>
+		<div contenteditable="true" class="mainEditorDiv">This content can be edited!!!</div>
+</div>
 
 </body>
 </html>

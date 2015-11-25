@@ -1,5 +1,14 @@
 /* this is the css file containing UI elements */
 
+body {
+  width: 500px;
+  height: 450px;
+}
+
+#wrapperDiv {
+  margin:auto;
+}
+
 .clrFlt { clear: both; }
 
 .mainEditorDiv {
@@ -8,13 +17,16 @@
   border: solid 1px #555;
   border-radius: 1em;
   padding: 1em;
+  margin: auto;
 }
 
 .btnDiv {
-
+  position:relative;
+  margin: auto;
 }
 
 .styleBtn {
+  position:relative;
   width: 1.4rem;
   border: solid 1px #555;
   float:left;
