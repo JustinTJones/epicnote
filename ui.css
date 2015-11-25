@@ -15,11 +15,14 @@
 }
 
 .styleBtn {
-  width: 0.8rem;
+  width: 1.4rem;
   border: solid 1px #555;
   float:left;
+  text-align: center;
+  cursor: pointer;
 }
 
 .activeBtn {
-
+  background-color: #444;
+  color: #CCC;
 }

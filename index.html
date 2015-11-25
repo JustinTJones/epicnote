@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jones Notes 0.0.0.3</title>
+	<title>Jones Notes 0.0.0.5</title>
 	<link rel="stylesheet" type="text/css" href="text.css">
 	<link rel="stylesheet" type="text/css" href="ui.css">
-	<script src="text.js"></script>
 	<script src="jquery-2.1.4.js"></script>
+	<script src="text.js"></script>
 </head>
 <body>
 	<h2 contenteditable="true">Take some notes</h2>
+	<em>em</em><br>
+	<strong>strong</strong><br>
+	<mark>mark</mark><br>
+	<del>del</del><br>
 	<div class="btnDiv">
-		<div class="styleBtn" id="btnBold"><span style="font-weight:bold;">B</span></div>
-		<div class="styleBtn" id="btnItalic"><span style="font-style:italic;">I</span></div>
-		<div class="styleBtn" id="btnUnderline"><span style="text-decoration:underline">U</span></div>
+		<div class="styleBtn" id="btnBold" value="strong"><span style="font-weight:bold;">B</span></div>
+		<div class="styleBtn" id="btnItalic" value="em"><span style="font-style:italic;">I</span></div>
+		<div class="styleBtn" id="btnUnderline" value="underline"><span style="text-decoration:underline;">U</span></div>
+		<div class="styleBtn" id="btnStrikethrough" value="strike"><span style="text-decoration:line-through;">S</span></div>
+		<div class="styleBtn" id="btnOl" value="ol">OL</div>
+		<div class="styleBtn" id="btnUl" value="ul">UL</div>
 		<div class="clrFlt"></div>
 	</div>
 	<div contenteditable="true" class="mainEditorDiv">This content can be edited!!!</div>
