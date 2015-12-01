@@ -1,2 +1,0 @@
-notes.loc:80
-Warning: File descriptor limit 1024 is too low for production sites. At least 4096 is recommended. Set with "ulimit -n 4096".

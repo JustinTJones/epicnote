@@ -1,6 +1,7 @@
 // this is the javascript file to manipulate the text
 $( document ).ready ( function () {
 	console.log('V 0.0.0.7');
+	// console.log(document.getElementById("mainEditor"));
 
 	$(".styleBtn").click(function () {
 		// function runs whenever any of the style buttons are clicked
