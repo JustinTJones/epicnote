@@ -1,5 +1,5 @@
 // this is the javascript file to manipulate the text
-$( document ).ready ( function init() {
+$( document ).ready ( function txtInit() {
 	console.log('V 0.0.0.7');
 
 	$(".styleBtn").click(function styleBtnClick() {
@@ -29,7 +29,7 @@ $( document ).ready ( function init() {
 		console.log('sel = ' + sel);
     if (sel.getRangeAt && sel.rangeCount) {
       range = sel.getRangeAt(0);
-      range.deleteContents();
+      // range.deleteContents();
 
       //// Range.createContextualFragment() would be useful here but is
       //// non-standard and not supported in all browsers (IE9, for one)

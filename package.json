@@ -1,5 +1,8 @@
 {
   "name": "notes_app",
-  "version": "0.0.0.8",
-  "main": "e_launch.js"
+  "version": "0.0.9",
+  "main": "e_launch.js",
+  "scripts": {
+    "start": "electron e_launch.js"
+  }
 }
