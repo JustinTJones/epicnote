@@ -1,4 +1,6 @@
-/* this is the css file related to text manipulation */
+/*  this is the css file related to text manipulation */
+/*  I've decided to do as much with html5 tags as possible,
+    to remain compatible with ENML (Evernote Markup Language) */
 
 .bold { font-weight: 800; }
 
@@ -7,4 +9,3 @@
 .underline { text-decoration: underline; }
 
 .strikethrough { text-decoration: strikethrough; }
-

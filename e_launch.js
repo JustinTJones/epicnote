@@ -1,3 +1,4 @@
+// Electron Launch Script
 'use strict';
 
 const electron = require('electron');

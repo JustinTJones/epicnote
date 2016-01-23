@@ -1,5 +1,5 @@
 {
-  "name": "notes_app",
+  "name": "EpicNote",
   "version": "0.0.9",
   "main": "e_launch.js",
   "scripts": {
