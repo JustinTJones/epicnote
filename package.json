@@ -1,8 +1,21 @@
 {
   "name": "EpicNote",
   "version": "0.0.9",
-  "main": "e_launch.js",
+  "description": "Cross platform note taking application",
+  "main": "app/js/e_launch.js",
   "scripts": {
-    "start": "electron e_launch.js"
+    "start": "electron app/js/e_launch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justintjones/epicnote"
+  },
+  "author": "Justin T Jones",
+  "license": "aGPL-3.0",
+  "dependencies": {
+    "electron": "*",
+    "draft-js": "*",
+    "react": "*",
+    "react-dom": "*"
   }
 }
