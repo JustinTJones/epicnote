@@ -11,11 +11,9 @@
     "url": "https://github.com/justintjones/epicnote"
   },
   "author": "Justin T Jones",
-  "license": "aGPL-3.0",
+  "license": "AGPL-3.0",
   "dependencies": {
     "electron": "*",
-    "draft-js": "*",
-    "react": "*",
-    "react-dom": "*"
+    "medium-editor": "*"
   }
 }
