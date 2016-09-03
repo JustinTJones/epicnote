@@ -2,9 +2,9 @@
   "name": "EpicNote",
   "version": "0.0.9",
   "description": "Cross platform note taking application",
-  "main": "app/js/e_launch.js",
+  "main": "js/e_launch.js",
   "scripts": {
-    "start": "electron app/js/e_launch.js"
+    "start": "electron js/e_launch.js"
   },
   "repository": {
     "type": "git",

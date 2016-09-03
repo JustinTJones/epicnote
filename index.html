@@ -4,12 +4,15 @@
 	<title>EpicNote</title>
 	<link rel="stylesheet" type="text/css" href="style/text.css">
 	<link rel="stylesheet" type="text/css" href="style/ui.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/medium-editor/dist/css/medium-editor.css">
+	<script src="node_modules/medium-editor/dist/js/medium-editor.js"></script>
 	<script src="js/text.js"></script>
 </head>
 <body>
-	<h2 id="txtNoteTitle" class="editable">Title</h2>
+	<h2 id="txtNoteTitle" class="titleBox" contenteditable="">Title</h2>
 	<div id="wrapperDiv">
-		<div class="mainEditorDiv editable" id="mainEditor">This content can be edited!!!</div>
+		<div class="editable" id="mainEditor">This content can be edited!!!</div>
+		<script>var editor = new MediumEditor('.editable');</script>
 	</div>
 
 </body>
